@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "studentDetails_Api.Controllers.UserController",
+    "Method": "deleteStudentDetails",
+    "RelativePath": "api/deleteStudentDetails/{studId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "studentDetails_Api.Controllers.UserController",
+    "Method": "userDetails",
+    "RelativePath": "api/getDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "studentDetails_Api.Controllers.UserController",
+    "Method": "SaveDetails",
+    "RelativePath": "api/saveDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "studentDetails_Api.Model.Dto.saveUserDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

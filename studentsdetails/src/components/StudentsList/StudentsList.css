@@ -1,0 +1,87 @@
+.student-list-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 8px 0;
+    text-align: left;
+    .gender{
+        width: 10vw;
+    }
+}
+h3{
+    font-size:larger;
+}
+.card-header{
+    position: relative;
+    text-align: center;
+    .card-title{
+        padding-top: 10px;
+
+    }
+    button{
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+}
+.add{
+
+}
+.card-header{
+    background-color: aliceblue;
+    color: black;
+    margin-top: 10px;
+    border-radius: 100%;
+    width: 50vw;
+    margin-left: 23vw;
+}
+td{
+    width: 17vw;
+    padding-left: 10px;
+}
+.buttons{
+    width: 10vw;
+}
+.dob{
+    width: 12vw;
+}
+.email{
+    width: 20vw;
+}
+.student-list{
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+    text-align: left;
+    padding: 8px 0;
+    button{
+        outline: 0;
+        border: 0;
+        padding: 0 7px;
+        margin-top: 0;
+    }
+    .edit{
+        padding: 0 4px;
+        background-color: yellow;
+        border-radius: 5px;
+    }
+    .gender{
+        width: 10vw;
+    }
+    .buttons{
+        position: relative;
+        button{
+            position: absolute;
+            margin: 0 5px;
+            padding-top: 0;
+        }
+        .btn-1{
+            top: 0;
+            left: 0;
+        }
+        .btn-2{
+            top: 0;
+            left: 40px;
+        }
+    }
+}
